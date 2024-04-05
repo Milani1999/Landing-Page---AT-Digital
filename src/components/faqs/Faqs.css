@@ -1,38 +1,23 @@
-.FAQs h2 {
-  height: 33px;
-  font-family: "Poppins";
-  font-weight: 600;
-  font-size: 27px;
-  line-height: 33px;
-  letter-spacing: 0.4px;
-  text-align: center;
-  margin-top: 50px;
+
+.faq {
+  margin-bottom: 10px;
 }
 
-.frame_12527{
-    width: 846px;
-    height: 331px;
-    gap: 15px;
-}
-
-.faqs {
+.question {
   display: flex;
-  float: left;
-  width: 744px;
-  height: 28px;
-  font-family: "Inter";
-  font-weight: 500;
-  font-size: 22px;
-  line-height: 28px;
-  color: #6b3cc9;
+  align-items: center;
+  padding: 20px;
+  cursor: pointer;
+  background-color: #4caf50;
+
 }
 
-.frame_35623 {
-  display: flex;
-  float: left;
+.button {
+  margin-left: auto;
+  font-size: 1.5rem;
 }
 
-.frame_35623 button{
-    width: 14px;
-    height: 28px;
+.answer {
+  background-color: #4caf50;
+  padding: 20px;
 }
