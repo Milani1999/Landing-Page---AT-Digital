@@ -4,7 +4,7 @@ import "./HeroSection.css";
 export default function () {
   return (
     <div className="HeroSection">
-      <img src="/Hero Image.png" alt="Hero Image" />
+      <img src="/HeroImage.png" alt="Hero Image" />
       <div className="frame-497">
         <p className="p-497">
           We Crush Your Competitors, Goals, And Sales Records - Without The B.S.
