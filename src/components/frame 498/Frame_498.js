@@ -1,7 +1,7 @@
 import React from "react";
 import "./Frame_498.css";
 
-export default function Frame_498() {
+export default function Frame498() {
   return (
     <div className="frame_498">
       <div className="image_2">
