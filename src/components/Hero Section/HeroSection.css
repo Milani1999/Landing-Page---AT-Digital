@@ -64,3 +64,24 @@
     opacity: 0px;
   }
 }
+
+@media (min-width: 375px) and (max-width: 767px) {
+  .HeroSection img {
+    width: 100%;
+    height: auto;
+  }
+
+  .frame-497 {
+    top: auto;
+    left: 50%;
+    transform: translateX(-50%);
+    position: relative;
+    width: 100%;
+  }
+
+  .p-497 {
+    width: 100%;
+    height: max-content;
+    font-size: 36px;
+  }
+}

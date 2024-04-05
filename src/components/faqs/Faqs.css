@@ -63,3 +63,13 @@
     width: 638px;
   }
 }
+
+@media (min-width: 375px) and (max-width: 767px) {
+  .question {
+    width: 334px;
+  }
+
+  .answer {
+    width: 334px;
+  }
+}

@@ -86,7 +86,46 @@
     height: 95px;
   }
 
-  .frame_92 button{
+  .frame_92 button {
     margin-top: 20px;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+  .frame_498,
+  .frame_499 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .frame_92 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+  }
+  .frame_74 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .frame_92 p {
+    width: 100%;
+    height: max-content;
+  }
+
+  .image_2 img {
+    height: 275px;
+    width: 275px;
+  }
+
+  .image_2 {
+    order: 1;
+  }
+
+  .frame_92_outer {
+    order: 2;
   }
 }

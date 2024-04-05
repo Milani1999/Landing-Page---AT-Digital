@@ -5,7 +5,7 @@
   background-color: #6b3cc9;
 }
 
-.navbar img {
+.navbar .img {
   width: 238.89px;
   height: 36.11px;
   margin-top: -11.11px;
@@ -40,5 +40,46 @@
   .frame-496 {
     gap: 10px;
     margin-bottom: -8px;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+  .Logo {
+    margin-left: -60px;
+    margin-right: -20px;
+    margin-top: -10px;
+  }
+
+  .font_icons {
+    height: 24px;
+    border-radius: 5px;
+  }
+
+  .menu {
+    margin-right: -60px;
+  }
+
+  .frame-496 {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    z-index: 999;
+    position: absolute;
+    width: 100%;
+    padding: 16px 20px 16px 20px;
+  }
+
+  .frame-496 li a {
+    color: black;
+    width: 335px;
+    height: 28px;
+    gap: 8px;
+  }
+
+  .menu {
+    background-color: #6b3cc9;
+    border: none;
+    color: #ffffff;
   }
 }

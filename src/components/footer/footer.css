@@ -117,8 +117,43 @@ hr {
     flex-direction: column;
   }
 
-  .frame_502{
+  .frame_502 {
     margin-top: 50px;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+  .footer {
+    height: max-content;
+    width: 100%;
+  }
+
+  .frame_500 img {
+    width: 238.89px;
+    height: 35px;
+  }
+
+  .frame_503 {
+    display: flex;
+    flex-direction: column;
+    margin-left: -50px;
+  }
+
+  .frame_502 {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .frame_500 p {
+    height: 76px;
+    width: 80%;
+  }
+
+  .frame_496 {
+    margin-top: 30px;
+    margin-left: 0;
+    width: 100%;
   }
 
 }
