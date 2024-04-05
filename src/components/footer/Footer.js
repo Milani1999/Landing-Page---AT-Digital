@@ -39,7 +39,7 @@ export default function Footer() {
         <div className="frame_504">
           <p>
             <span className="privacy">Privacy Policy </span>
-            <span className="line">|</span>
+            <span className="line"> | </span>
             <span className="terms"> Terms & Conditions</span>
           </p>
         </div>
