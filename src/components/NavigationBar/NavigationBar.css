@@ -5,6 +5,10 @@
   background-color: #6b3cc9;
 }
 
+.Logo {
+  margin-top: -10px;
+}
+
 .navbar .img {
   width: 238.89px;
   height: 36.11px;
@@ -25,6 +29,7 @@
   font-weight: 500;
   font-size: 14px;
   line-height: 16.94px;
+  margin-bottom: -20px;
 }
 
 .frame-496 li a {
