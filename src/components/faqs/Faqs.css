@@ -1,0 +1,38 @@
+.FAQs h2 {
+  height: 33px;
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 27px;
+  line-height: 33px;
+  letter-spacing: 0.4px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.frame_12527{
+    width: 846px;
+    height: 331px;
+    gap: 15px;
+}
+
+.faqs {
+  display: flex;
+  float: left;
+  width: 744px;
+  height: 28px;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 28px;
+  color: #6b3cc9;
+}
+
+.frame_35623 {
+  display: flex;
+  float: left;
+}
+
+.frame_35623 button{
+    width: 14px;
+    height: 28px;
+}
