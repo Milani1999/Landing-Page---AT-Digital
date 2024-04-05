@@ -26,18 +26,18 @@ export default function NavigationBar() {
 
   const renderNavItems = () => {
     return (
-      <ul className="frame-496">
+      <ul className="frame-496" id="nav">
         <li>
-          <a href="#">SERVICES</a>
+          <a href="#nav">SERVICES</a>
         </li>
         <li>
-          <a href="#">ABOUT US</a>
+          <a href="#nav">ABOUT US</a>
         </li>
         <li>
-          <a href="#">CONTACT US</a>
+          <a href="#nav">CONTACT US</a>
         </li>
         <li>
-          <a href="#">CAREERS</a>
+          <a href="#nav">CAREERS</a>
         </li>
       </ul>
     );
@@ -54,8 +54,8 @@ export default function NavigationBar() {
   return (
     <div>
       <nav className="navbar">
-        <a href="#" className="Logo">
-          <img src="Logo.png" alt="Logo" />
+        <a href="#nav" className="Logo">
+          <img src="Logo.png" alt="Company Logo" />
         </a>
         {isMobileView ? renderHamburgerIcon() : renderNavItems()}
       </nav>
