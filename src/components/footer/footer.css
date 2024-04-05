@@ -102,7 +102,7 @@ hr {
   flex-direction: column;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 1199px) {
   .footer {
     height: 428px;
   }

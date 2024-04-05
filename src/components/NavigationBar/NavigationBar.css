@@ -32,7 +32,7 @@
   color: #fff;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 1199px) {
   .navbar img {
     margin-left: -50px;
   }

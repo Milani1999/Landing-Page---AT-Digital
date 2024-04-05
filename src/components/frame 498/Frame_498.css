@@ -60,7 +60,7 @@
   color: #ffffff;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 1199px) {
   .frame_498 {
     margin-top: 50px;
   }

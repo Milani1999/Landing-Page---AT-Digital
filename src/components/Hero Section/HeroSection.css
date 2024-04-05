@@ -43,9 +43,9 @@
   color: #ffffff;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 1199px) {
   .HeroSection img {
-    width: 768px;
+    width: 100%;
     height: 448px;
   }
 
