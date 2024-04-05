@@ -10,10 +10,11 @@ function App() {
     <div>
       <NavigationBar />
       <HeroSection />
+      <Footer />
+
       <Frame498 />
       <Frame499 />
       <Faqs />
-      <Footer />
     </div>
   );
 }
